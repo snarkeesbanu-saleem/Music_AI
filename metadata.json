@@ -1,0 +1,6 @@
+{
+  "name": "AI Music Generator",
+  "description": "An interactive, visual AI music playground and training workbench. Train Recurrent Neural Networks (RNNs) and Markov Chains on classical, jazz, or custom user melodies. Features real-time visual training loss charts, polyphonic piano roll playback, MIDI file generation and downloads, and intelligent neural-powered creative melody seeds.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
