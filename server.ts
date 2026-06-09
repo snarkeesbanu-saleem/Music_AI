@@ -15,9 +15,9 @@ app.use(express.json());
 let genAiClient: GoogleGenAI | null = null;
 function getGenAiClient(): GoogleGenAI {
   if (!genAiClient) {
-    const key = process.env.GEMINI_API_KEY;
+    const key = process.env.API_KEY || process.env.GEMINI_API_KEY;
     if (!key) {
-      throw new Error("The required API key (GEMINI_API_KEY) is not defined in your Secrets configuration.");
+      throw new Error("The required composition API_KEY is not defined in the environment configuration.");
     }
     genAiClient = new GoogleGenAI({
       apiKey: key,

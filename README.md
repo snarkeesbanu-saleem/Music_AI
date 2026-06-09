@@ -36,7 +36,7 @@ Algorithmic Symphony is an interactive, visual music playground and neural train
 Create a `.env.local` file in the root directory and define the following variables:
 
 ```env
-GEMINI_API_KEY="your_api_key_here"
+API_KEY="your_api_key_here"
 APP_URL="http://localhost:3000"
 ```
 
